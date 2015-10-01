@@ -6,6 +6,8 @@ description      'Kibana OpsWorks'
 long_description 'Kibana OpsWorks'
 version          '0.2.1'
 
+depends 'yum-epel'
 depends 'opsworks_utils'
 depends 'ohai'
 depends 'kibana_lwrp'
+depends 'chamber-kibana'

@@ -1,4 +1,4 @@
 source 'https://api.berkshelf.com'
 
-cookbook 'kibana_lwrp', '~> 2.0.6', git: 'git://github.com/lusis/chef-kibana.git'
+cookbook 'chamber-kibana', git: 'git://github.com/fring/chamber-kibana.git', tag '0.0.1'
 cookbook 'opsworks_utils', '~> 0.1.0', git: 'git://github.com/hautelook/chef-opsworks-utils.git'
