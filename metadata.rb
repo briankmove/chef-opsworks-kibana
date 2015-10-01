@@ -8,4 +8,4 @@ version          '0.2.0'
 
 depends 'opsworks_utils'
 depends 'ohai'
-depends 'kibana_lwrp'
+depends 'kibana'
